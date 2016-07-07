@@ -34,4 +34,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtime_genoff
 
+PRODUCT_PACKAGES += \
+    ims \
+    imssettings \
+    imscmlibrary
+
 $(call inherit-product, vendor/yu/tomato/tomato-vendor-blobs.mk)
