@@ -18,6 +18,7 @@
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     shutdownlistener \
+    QtiTelephonyService \
     TimeService
 
 PRODUCT_PACKAGES += \
@@ -35,8 +36,8 @@ PRODUCT_PACKAGES += \
     libtime_genoff
 
 PRODUCT_PACKAGES += \
-    ims \
-    imssettings \
-    imscmlibrary
+   ims \
+   imssettings \
+   imscmlibrary
 
 $(call inherit-product, vendor/yu/tomato/tomato-vendor-blobs.mk)
