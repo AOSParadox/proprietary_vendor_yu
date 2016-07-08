@@ -203,8 +203,14 @@ PRODUCT_COPY_FILES += \
     vendor/yu/tomato/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
+    vendor/yu/tomato/proprietary/bin/iop:system/bin/iop \
     vendor/yu/tomato/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
+    vendor/yu/tomato/proprietary/framework/QPerformance.jar:system/framework/QPerformance.jar \
+    vendor/yu/tomato/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
+    vendor/yu/tomato/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/yu/tomato/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/yu/tomato/proprietary/vendor/lib64/libqc-opt.so:system/vendor/lib64/libqc-opt.so \
+    vendor/yu/tomato/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/yu/tomato/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/yu/tomato/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
