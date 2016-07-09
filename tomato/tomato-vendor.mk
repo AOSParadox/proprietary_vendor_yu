@@ -19,7 +19,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     shutdownlistener \
     QtiTelephonyService \
-    QtiTetherService \
     TimeService
 
 PRODUCT_PACKAGES += \
