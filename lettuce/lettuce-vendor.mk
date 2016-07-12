@@ -18,7 +18,6 @@
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     shutdownlistener \
-    QtiTelephonyService \
     TimeService
 
 PRODUCT_PACKAGES += \
@@ -34,10 +33,5 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libtime_genoff
-
-PRODUCT_PACKAGES += \
-   ims \
-   imssettings \
-   imscmlibrary
 
 $(call inherit-product, vendor/yu/lettuce/lettuce-vendor-blobs.mk)
