@@ -208,7 +208,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/tomato/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/yu/tomato/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/yu/tomato/proprietary/vendor/lib64/libqc-opt.so:system/vendor/lib64/libqc-opt.so \
-    vendor/yu/tomato/proprietary/vendor/lib64/libqti-at.so:system/vendor/lib64/libqti-at.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/yu/tomato/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
