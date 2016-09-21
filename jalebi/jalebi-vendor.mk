@@ -21,7 +21,12 @@ PRODUCT_COPY_FILES += \
     vendor/yu/jalebi/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     vendor/yu/jalebi/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/yu/jalebi/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/yu/jalebi/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
+    vendor/yu/jalebi/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/yu/jalebi/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    vendor/yu/jalebi/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    vendor/yu/jalebi/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    vendor/yu/jalebi/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+    vendor/yu/jalebi/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
